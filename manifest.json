@@ -1,0 +1,25 @@
+{
+  "name": "Spider Chart",
+  "id": "spider-chart",
+  "description": "Simple radar chart using Chart.js",
+  "resources": {
+    "js": ["index.js"],
+    "css": []
+  },
+  "data": {
+    "dimensions": [
+      {
+        "id": "label",
+        "name": "Label"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "value",
+        "name": "Value"
+      }
+    ]
+  },
+  "style": [],
+  "version": "1.0"
+}
