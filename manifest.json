@@ -7,33 +7,27 @@
   "supportUrl": "",
   "devMode": true,
 
-  "components": [
-    {
-      "id": "spider-chart",
-      "name": "Spider Chart",
-      "description": "Simple radar chart",
-      "iconUrl": "",
-      "resource": {
-        "js": ["index.js"],
-        "html": "index.html"
-      },
+  "url": "index.html",
 
-      "data": {
-        "dimensions": [
-          {
-            "id": "label",
-            "name": "Label"
-          }
-        ],
-        "metrics": [
-          {
-            "id": "value",
-            "name": "Value"
-          }
-        ]
-      },
+  "resources": {
+    "js": ["index.js"],
+    "css": []
+  },
 
-      "style": []
-    }
-  ]
+  "data": {
+    "dimensions": [
+      {
+        "id": "label",
+        "name": "Label"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "value",
+        "name": "Value"
+      }
+    ]
+  },
+
+  "style": []
 }
