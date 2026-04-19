@@ -1,17 +1,13 @@
 {
   "name": "Spider Chart",
-  "id": "spider-chart-viz",
-  "organization": "Vinnu",
+  "id": "spider-chart",
+  "organization": "Community",
   "description": "Radar chart using Chart.js",
-  "logoUrl": "",
-  "supportUrl": "",
-  "devMode": true,
 
   "url": "index.html",
 
   "resources": {
-    "js": ["index.js"],
-    "css": []
+    "js": ["index.js"]
   },
 
   "data": {
@@ -29,5 +25,5 @@
     ]
   },
 
-  "style": []
+  "style": {}
 }
