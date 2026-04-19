@@ -1,25 +1,39 @@
 {
   "name": "Spider Chart",
-  "id": "spider-chart",
-  "description": "Simple radar chart using Chart.js",
-  "resources": {
-    "js": ["index.js"],
-    "css": []
-  },
-  "data": {
-    "dimensions": [
-      {
-        "id": "label",
-        "name": "Label"
-      }
-    ],
-    "metrics": [
-      {
-        "id": "value",
-        "name": "Value"
-      }
-    ]
-  },
-  "style": [],
-  "version": "1.0"
+  "id": "spider-chart-viz",
+  "organization": "Vinnu",
+  "description": "Radar chart using Chart.js",
+  "logoUrl": "",
+  "supportUrl": "",
+  "devMode": true,
+
+  "components": [
+    {
+      "id": "spider-chart",
+      "name": "Spider Chart",
+      "description": "Simple radar chart",
+      "iconUrl": "",
+      "resource": {
+        "js": ["index.js"],
+        "html": "index.html"
+      },
+
+      "data": {
+        "dimensions": [
+          {
+            "id": "label",
+            "name": "Label"
+          }
+        ],
+        "metrics": [
+          {
+            "id": "value",
+            "name": "Value"
+          }
+        ]
+      },
+
+      "style": []
+    }
+  ]
 }
